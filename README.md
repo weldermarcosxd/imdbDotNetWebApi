@@ -2,16 +2,22 @@
 
 Estes documento README tem como objetivo fornecer as informações necessárias para realização do projeto Empresas.
 
-### O QUE FAZER ? ###
+### Objetivo ###
+* Criação de uma API em .NET que atendam aos requisitos do escopo do projeto, listado abaixo.
+* Você deve realizar um fork deste repositório e, ao finalizar, enviar o link do seu repositório para a nossa equipe. Lembre-se, **NÃO** é necessário criar um Pull Request para isso.
+* Nós iremos realizar a avaliação e te retornar um email com o resultado.
 
-* Você deve fazer um fork deste repositório, criar o código e ao finalizar realizar o commit e solicitar um pull request, nós iremos avaliar e retornar por email o resultado do seu teste.
+### O que será avaliado?
+* A ideia com este teste é ter um melhor entendimento das suas habilidades com a tecnoligia .Net, assim como seus frameworks. Mas de qualquer forma, uma boa padronização e organização, são **MUITO** bem vindas.
+- A qualidade e desempenho do seu código
+- Sua capacidade de organizar o código
+- Capacidade de tomar decisões
 
 ### ESCOPO DO PROJETO ###
-* Deve ser criada uma API em .NET.
+* Deve ser criada uma API em .NET, ou .NET Core.
 * A API deve fazer o seguinte:
-* Login e acesso de Usuário já registrado
-	* Para o login usamos padrões OAuth 2.0. Na resposta de sucesso do login a api retornará 3 custom headers (access-token, client, uid);
-	* Para ter acesso as demais APIS precisamos enviar esses 3 custom headers para a API autorizar a requisição;
+* Login e verificação de acesso de usuários registrados
+	* Para o login usamos padrões OAuth 2.0.
 * Listagem de Empresas
 * Detalhamento de Empresas
 * Filtro de Empresas por nome e tipo
@@ -29,7 +35,10 @@ Estes documento README tem como objetivo fornecer as informações necessárias 
 
 * Independente de onde conseguiu chegar no teste é importante disponibilizar seu fonte para analisarmos.
 
-* É obrigatório utilização de Banco de Dados MySql
+* É obrigatório utilização de Banco de Dados Sql Server.
+
+* Nâo esqueça de nos enviar um dump/script, dos dados utilizados.
+
 
 ### Dados para Teste ###
 
