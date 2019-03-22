@@ -3,15 +3,15 @@
 Estes documento README tem como objetivo fornecer as informações necessárias para realização do projeto Empresas.
 
 ### Objetivo ###
-* Criação de uma API em .NET que atendam aos requisitos do escopo do projeto, listado abaixo.
+* Criação de uma API em .NET que atendam aos requisitos do escopo do projeto, listados abaixo.
 * Você deve realizar um fork deste repositório e, ao finalizar, enviar o link do seu repositório para a nossa equipe. Lembre-se, **NÃO** é necessário criar um Pull Request para isso.
 * Nós iremos realizar a avaliação e te retornar um email com o resultado.
 
 ### O que será avaliado?
-* A ideia com este teste é ter um melhor entendimento das suas habilidades com a tecnoligia .Net, assim como seus frameworks. Mas de qualquer forma, uma boa padronização e organização, são **MUITO** bem vindas.
-- A qualidade e desempenho do seu código
-- Sua capacidade de organizar o código
-- Capacidade de tomar decisões
+* A ideia com este teste é ter um melhor entendimento das suas habilidades com a tecnologia .Net, assim como seus frameworks. Mas de qualquer forma, uma boa padronização e organização, são **MUITO** bem vindas.
+- A qualidade e desempenho do seu código.
+- Sua capacidade de organizar o código.
+- Capacidade de tomar decisões.
 
 ### ESCOPO DO PROJETO ###
 * Deve ser criada uma API em .NET, ou .NET Core.
@@ -37,7 +37,7 @@ Estes documento README tem como objetivo fornecer as informações necessárias 
 
 * É obrigatório utilização de Banco de Dados Sql Server.
 
-* Nâo esqueça de nos enviar um dump/script, dos dados utilizados.
+* Não esqueça de nos enviar um dump/script, da base de dados utilizada.
 
 
 ### Dados para Teste ###
