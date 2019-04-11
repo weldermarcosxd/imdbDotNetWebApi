@@ -57,8 +57,7 @@ Este documento README tem como objetivo fornecer as informações necessárias p
 
 ## ---- English ---- ##
 
-This document aims to provide the information needed to develop Enterprise's project
-Estes documento README tem como objetivo fornecer as informações necessárias para realização do projeto Empresas.
+This document aims to provide the information needed to develop Enterprise's project.
 
 ### Goal ###
 * Development of an .NET API that meets the requirements of the Project Scope listed below.
