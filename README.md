@@ -61,12 +61,12 @@ This document aims to provide the information needed to develop Enterprise's pro
 
 ### Goal ###
 * Development of an .NET API that meets the requirements of the Project Scope listed below.
-* You must fork this repository and send the link of your own repository to our team. Remember: it's **NOT** necessary do a Pull Request to acomplish this.
+* You must fork this repository and send the link of your own repository to our team. Remember: it's **NOT** necessary to do a Pull Request to acomplish this.
 * We will evaluate your code and send you an email with the result asap.
 
 ### What will be evaluated? ###
 
-* The purpose of this test is to have a better idea of your .Net knowledge and the frameworks that comes with it as well. Nevertheless, the use of patterns and a good organization will be greatly appreciated.
+* The purpose of this test is to have a better idea of your .Net knowledge and the all frameworks that comes with it as well. Nevertheless, the use of patterns and a good organization will be greatly appreciated.
 * The quality and performance of your code.
 * Your capacity of organize your code.
 * Effectiveness of your decision-making
@@ -75,7 +75,7 @@ This document aims to provide the information needed to develop Enterprise's pro
 * Develop an API in .NET or .NET Core.
 * The API should do the following:
 * Login and authentication of registered users.
-   * OAuth 2.0 patterns are recommended.
+    * OAuth 2.0 patterns are recommended.
 * Enterprise listing.
 * Enterprise filter by name and type.
 
