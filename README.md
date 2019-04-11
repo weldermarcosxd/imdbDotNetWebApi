@@ -86,8 +86,6 @@ This document aims to provide the information needed to develop Enterprise's pro
 
 * The API must work exactly the same way as the one available in the postman collection. Below the acess and credentials are provided.
 
-* A API deve funcionar exatamente da mesma forma que a disponibilizada na collection do postman, mais abaixo os acessos a API estarão disponíveis em nosso servidor.
-
 * Keep the same structure of the collection in your API, in other words, it should have the same attributes, responses, routes and treatments, working just like our example.
 
 * After you finish your code and make it avaliable to us evaluate, we will deploy it on our servers and integrate with the app.
