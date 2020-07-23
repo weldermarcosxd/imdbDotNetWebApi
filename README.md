@@ -1,104 +1,64 @@
-# README #
+# Desafio Pessoa Desenvolvedora .NET
 
-## ---- Português ---- ##
+## 🏗 O que fazer?
 
-Este documento README tem como objetivo fornecer as informações necessárias para realização do projeto Empresas.
+- Você deve realizar um *fork* deste repositório e, ao finalizar, enviar o link do seu repositório para a nossa equipe. Lembre-se, **NÃO** é necessário criar um *Pull Request* para isso, nós iremos avaliar e retornar por e-mail o resultado do teste.
 
-### Objetivo ###
-* Criação de uma API em .NET que atendam aos requisitos do escopo do projeto, listados abaixo.
-* Você deve realizar um fork deste repositório e, ao finalizar, enviar o link do seu repositório para a nossa equipe. Lembre-se, **NÃO** é necessário criar um Pull Request para isso.
-* Nós iremos realizar a avaliação e te retornar um email com o resultado.
+# 🚨 Requisitos
 
-### O que será avaliado? ###
-* A ideia com este teste é ter um melhor entendimento das suas habilidades com a tecnologia .Net, assim como seus frameworks. Mas de qualquer forma, uma boa padronização e organização, são **MUITO** bem vindas.
-* A qualidade e desempenho do seu código.
-* Sua capacidade de organizar o código.
-* Capacidade de tomar decisões.
+- A API deve ser construída em .NET Core (prioritariamente) ou .NET Framework
+- Implementar autenticação e deverá seguir o padrão ***JWT***, lembrando que o token a ser recebido deverá ser no formato ***Bearer***
+- Implementar operações no banco de dados utilizando um ***ORM*** ou ***Micro ORM***
+- **ORM/Micro ORM permitidos:**
+    - *Entity Framework Core*
+    - *Dapper*
+- **Bancos relacionais permitidos**
+    - *SQL Server* (prioritariamente)
+    - *MySQL*
+    - *PostgreSQL*
+- As entidades da sua API deverão ser criadas utilizando ***Code First***. Portanto, as ***Migrations*** para geração das tabelas também deverá ser enviada no teste.
+- Sua API deverá seguir os padrões REST na construção das rotas e retornos
+- Sua API deverá conter documentação viva utilizando ***Swagger***
+- Caso haja alguma particularidade de implementação, instruções para execução do projeto deverão ser enviadas
 
-### ESCOPO DO PROJETO ###
-* Deve ser criada uma API em .NET, ou .NET Core.
-* A API deve fazer o seguinte:
-* Login e verificação de acesso de usuários registrados
-	* Para o login usamos padrões OAuth 2.0.
-* Listagem de Empresas
-* Detalhamento de Empresas
-* Filtro de Empresas por nome e tipo
+# 🎁 Extra
 
+Estes itens não são obrigatórios, porém desejados.
 
-### Informações Importantes ###
+- Testes unitários
+- Teste de integração da API em linguagem de sua preferência (damos importância para pirâmide de testes)
+- Cobertura de testes utilizando Sonarqube
+- Utilização de *Docker* (enviar todos os arquivos e instruções necessárias para execução do projeto)
 
-* Modelo de Integração disponível a partir de uma collection para Postman (https://www.getpostman.com/apps) disponível neste repositório.
+# 🕵🏻‍♂️ Itens a serem avaliados
 
-* A API deve funcionar exatamente da mesma forma que a disponibilizada na collection do postman, mais abaixo os acessos a API estarão disponíveis em nosso servidor.
+- Estrutura do projeto
+- Utilização de código limpo e princípios **SOLID**
+- Segurança da API, como autenticação, senhas salvas no banco, *SQL Injection* e outros.
+- Boas práticas da Linguagem/Framework
+- Seu projeto deverá seguir tudo o que foi exigido na seção  [O que desenvolver?](notion://www.notion.so/Desafio-Pessoa-Desenvolvedora-NET-cf39cb7c2ce14ca69218cafbe0cf8f0b##--o-que-desenvolver)
 
-* Mantenha a mesma estrutura do postman em sua API, ou seja, ela deve ter os mesmo atributos, respostas, rotas e tratamentos, funcionando igual ao nosso exemplo.
+# 🖥 O que desenvolver?
 
-* Quando seu código for finalizado e disponibilizado para validarmos, vamos subir em nosso servidor e realizar a integração com o app. 
+Você deverá criar uma API que o site [IMDb](https://www.imdb.com/) irá consultar para exibir seu conteúdo, sua API deverá conter as seguintes funcionalidades:
 
-* Independente de onde conseguiu chegar no teste é importante disponibilizar seu fonte para analisarmos.
+- Administrador
+    - Cadastro
+    - Edição
+    - Exclusão lógica (desativação)
+    - Listagem de usuários não administradores ativos
+- Usuário
+    - Cadastro
+    - Edição
+    - Exclusão lógica (desativação)
+- Filmes
+    - Cadastro (somente um usuário administrador poderá realizar esse cadastro)
+    - Voto (a contagem de votos será feita por usuário de 0-4 que indica quanto o usuário gostou do filme)
+    - Listagem (deverá ter filtro por diretor, nome, gênero e/ou atores)
+    - Detalhes do filme trazendo todas as informações sobre o filme, inclusive a média dos votos
 
-* É obrigatório utilização de Banco de Dados Sql Server.
+**Obs.:** 
 
-* Não esqueça de nos enviar um dump/script, da base de dados utilizada.
+**Apenas os usuários poderão votar nos filmes e a API deverá validar quem é o usuário que está acessando, ou seja, se é um usuário administrador ou não.**
 
-
-### Dados para Teste ###
-
-* Servidor: http://empresas.ioasys.com.br
-* Versão da API: v1
-* Usuário de Teste: testeapple@ioasys.com.br
-* Senha de Teste : 12341234
-
-### Dicas ###
-
-* Guideline rails http://guides.rubyonrails.org/index.html
-* Componente de autenticação https://github.com/rizel10/simple_token_auth
-* Componente de autenticação https://github.com/lynndylanhurley/devise_token_auth
-
-## ---- English ---- ##
-
-This document aims to provide the information needed to develop Enterprise's project.
-
-### Goal ###
-* Development of an .NET API that meets the requirements of the Project Scope listed below.
-* You must fork this repository and send the link of your own repository to our team. Remember: it's **NOT** necessary to do a Pull Request to acomplish this.
-* We will evaluate your code and send you an email with the result asap.
-
-### What will be evaluated? ###
-
-* The purpose of this test is to have a better idea of your .Net knowledge and the all frameworks that comes with it as well. Nevertheless, the use of patterns and a good organization will be greatly appreciated.
-* The quality and performance of your code.
-* Your capacity of organize your code.
-* Effectiveness of your decision-making
-
-### PROJECT SCOPE ###
-* Develop an API in .NET or .NET Core.
-* The API should do the following:
-* Login and authentication of registered users.
-    * OAuth 2.0 patterns are recommended.
-* Enterprise listing.
-* Enterprise filter by name and type.
-
-
-### Important ###
-
-* Integration model is in the Postman (https://www.getpostman.com/apps) collection availabled in this repository (https://bitbucket.org/ioasys/empresas-dotnet/src/582aaa55ca60/App_Empresas.postman_collection?at=master)
-
-* The API must work exactly the same way as the one available in the postman collection. Below the acess and credentials are provided.
-
-* Keep the same structure of the collection in your API, in other words, it should have the same attributes, responses, routes and treatments, working just like our example.
-
-* After you finish your code and make it avaliable to us evaluate, we will deploy it on our servers and integrate with the app.
-
-* Regardless of how much you acomplish it's important to make it avaliable so that we can evaluate it properly.
-
-* It's mandatory to use a SQL Server Database.
-
-* Don't forget to send us a dump/script of the database. (You can use migrations if you want to)
-
-### Test Info ###
-
-* Server: http://empresas.ioasys.com.br
-* API Version: v1
-* Test User: testeapple@ioasys.com.br
-* Test Password : 12341234
+**Caso não consiga concluir todos os itens propostos, é importante que nos envie a implementação até onde foi possível para que possamos avaliar**
