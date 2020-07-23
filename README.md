@@ -36,7 +36,7 @@ Estes itens não são obrigatórios, porém desejados.
 - Utilização de código limpo e princípios **SOLID**
 - Segurança da API, como autenticação, senhas salvas no banco, *SQL Injection* e outros.
 - Boas práticas da Linguagem/Framework
-- Seu projeto deverá seguir tudo o que foi exigido na seção  [O que desenvolver?](notion://www.notion.so/Desafio-Pessoa-Desenvolvedora-NET-cf39cb7c2ce14ca69218cafbe0cf8f0b##--o-que-desenvolver)
+- Seu projeto deverá seguir tudo o que foi exigido na seção  [O que desenvolver?](##--o-que-desenvolver)
 
 # 🖥 O que desenvolver?
 
