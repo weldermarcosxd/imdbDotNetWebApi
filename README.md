@@ -9,7 +9,7 @@
 - A API deve ser construída em .NET Core (prioritariamente) ou .NET Framework
 - Implementar autenticação e deverá seguir o padrão ***JWT***, lembrando que o token a ser recebido deverá ser no formato ***Bearer***
 - Implementar operações no banco de dados utilizando um ***ORM*** ou ***Micro ORM***
-- **ORM/Micro ORM permitidos:**
+- **ORM's/Micro ORM's permitidos:**
     - *Entity Framework Core*
     - *Dapper*
 - **Bancos relacionais permitidos**
