@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using ImbdDomain.Models;
 using ImdbServices.Dtos;
 using ImdbServices.Services;
 using Microsoft.AspNetCore.Authorization;
@@ -23,7 +22,7 @@ namespace ImdbAPI.Controllers
         [HttpPost]
         [AllowAnonymous]
         [Route("authenticate")]
-        public ActionResult<dynamic> Authenticate([FromBody] User model)
+        public ActionResult<dynamic> Authenticate([FromBody] LoginDto model)
         {
             var user = _userService.Get(model.Username, model.Password);
 

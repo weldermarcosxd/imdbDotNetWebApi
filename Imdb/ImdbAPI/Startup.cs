@@ -1,10 +1,12 @@
 using AutoMapper;
+using FluentValidation.AspNetCore;
 using ImdbInfraData.Context;
 using ImdbInfraData.Interfaces;
 using ImdbInfraData.Repository;
 using ImdbServices.Mappers;
 using ImdbServices.Services;
 using ImdbServices.Settings;
+using ImdbServices.Validators;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -61,6 +63,9 @@ namespace ImdbAPI
                     }
                 });
             });
+
+            services.AddMvc()
+                .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<UserValidator>());
 
             services.AddTransient(typeof(IImdbRepository<>), typeof(ImdbRepository<>));
 

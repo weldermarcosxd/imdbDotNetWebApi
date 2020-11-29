@@ -1,11 +1,10 @@
 ﻿using ImbdDomain.Models;
-using ImdbInfraData.Context;
 using ImdbInfraData.Interfaces;
 using System.Linq;
 
 namespace ImdbServices.Services
 {
-    public class UserService : CrudService<User, ImdbContext>, IUserService
+    public class UserService : ImdbCrudService<User>, IUserService
     {
         private readonly IImdbRepository<User> _repository;
 

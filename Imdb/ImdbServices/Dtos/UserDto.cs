@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ImbdDomain.Enums;
+using System;
 
 namespace ImdbServices.Dtos
 {
@@ -8,6 +9,8 @@ namespace ImdbServices.Dtos
 
         public string Username { get; set; }
 
-        public string Role { get; set; }
+        public string Password { get; set; }
+
+        public UserRolesEnum Role { get; set; }
     }
 }

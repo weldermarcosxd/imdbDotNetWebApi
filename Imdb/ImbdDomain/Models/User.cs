@@ -1,4 +1,6 @@
-﻿namespace ImbdDomain.Models
+﻿using ImbdDomain.Enums;
+
+namespace ImbdDomain.Models
 {
     public class User : ImdbEntity
     {
@@ -6,6 +8,6 @@
 
         public string Password { get; set; }
 
-        public string Role { get; set; }
+        public UserRolesEnum Role { get; set; }
     }
 }

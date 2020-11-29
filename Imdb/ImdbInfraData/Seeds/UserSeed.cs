@@ -11,10 +11,10 @@ namespace ImdbInfraData.Seeds
         {
             return new User()
             {
-                Id = Guid.NewGuid(),
+                Id = new Guid("c177b3c0-5fac-4604-9287-2ddd76f19d14"),
                 Username = "admin",
                 Password = "admin",
-                Role = UserRolesEnum.Administrator.ToString(),
+                Role = UserRolesEnum.Administrator,
                 Deleted = false,
                 CreatedAt = new DateTime(2020, 11, 29),
                 UpdatedAt = new DateTime(2020, 11, 29)

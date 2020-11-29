@@ -6,20 +6,20 @@
 
 # 🚨 Requisitos
 
-- A API deve ser construída em .NET Core (prioritariamente) ou .NET Framework
-- Implementar autenticação e deverá seguir o padrão ***JWT***, lembrando que o token a ser recebido deverá ser no formato ***Bearer***
-- Implementar operações no banco de dados utilizando um ***ORM*** ou ***Micro ORM***
+- A API deve ser construída em .NET Core (prioritariamente) ou .NET Framework ✓
+- Implementar autenticação e deverá seguir o padrão ***JWT***, lembrando que o token a ser recebido deverá ser no formato ***Bearer*** ✓
+- Implementar operações no banco de dados utilizando um ***ORM*** ou ***Micro ORM*** ✓
 - **ORM's/Micro ORM's permitidos:**
-    - *Entity Framework Core*
+    - *Entity Framework Core* ✓
     - *Dapper*
 - **Bancos relacionais permitidos**
     - *SQL Server* (prioritariamente)
     - *MySQL*
-    - *PostgreSQL*
-- As entidades da sua API deverão ser criadas utilizando ***Code First***. Portanto, as ***Migrations*** para geração das tabelas também deverá ser enviada no teste.
-- Sua API deverá seguir os padrões REST na construção das rotas e retornos
-- Sua API deverá conter documentação viva utilizando ***Swagger***
-- Caso haja alguma particularidade de implementação, instruções para execução do projeto deverão ser enviadas
+    - *PostgreSQL* ✓
+- As entidades da sua API deverão ser criadas utilizando ***Code First***. Portanto, as ***Migrations*** para geração das tabelas também deverá ser enviada no teste. ✓
+- Sua API deverá seguir os padrões REST na construção das rotas e retornos ✓
+- Sua API deverá conter documentação viva utilizando ***Swagger*** ✓
+- Caso haja alguma particularidade de implementação, instruções para execução do projeto deverão ser enviadas ✓
 
 # 🎁 Extra
 

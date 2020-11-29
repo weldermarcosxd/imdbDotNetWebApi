@@ -10,7 +10,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace ImdbInfraData.Migrations
 {
     [DbContext(typeof(ImdbContext))]
-    [Migration("20201129174149_inital_migration")]
+    [Migration("20201129200900_inital_migration")]
     partial class inital_migration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -36,8 +36,8 @@ namespace ImdbInfraData.Migrations
                     b.Property<string>("Password")
                         .HasColumnType("text");
 
-                    b.Property<string>("Role")
-                        .HasColumnType("text");
+                    b.Property<int>("Role")
+                        .HasColumnType("integer");
 
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("timestamp without time zone");
@@ -56,7 +56,7 @@ namespace ImdbInfraData.Migrations
                             CreatedAt = new DateTime(2020, 11, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Deleted = false,
                             Password = "admin",
-                            Role = "Administrator",
+                            Role = 0,
                             UpdatedAt = new DateTime(2020, 11, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Username = "admin"
                         });
