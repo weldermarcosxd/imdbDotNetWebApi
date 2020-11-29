@@ -42,17 +42,17 @@ Estes itens não são obrigatórios, porém desejados.
 
 Você deverá criar uma API que o site [IMDb](https://www.imdb.com/) irá consultar para exibir seu conteúdo, sua API deverá conter as seguintes funcionalidades:
 
-- Administrador
-    - Cadastro
-    - Edição
-    - Exclusão lógica (desativação)
-    - Listagem de usuários não administradores ativos
-        - Opção de trazer registros paginados
-        - Retornar usuários por ordem alfabética
-- Usuário
-    - Cadastro
-    - Edição
-    - Exclusão lógica (desativação)
+- Administrador ✓
+    - Cadastro ✓
+    - Edição ✓
+    - Exclusão lógica (desativação) ✓
+    - Listagem de usuários não administradores ativos ✓
+        - Opção de trazer registros paginados ✓
+        - Retornar usuários por ordem alfabética ✓
+- Usuário ✓
+    - Cadastro ✓
+    - Edição ✓
+    - Exclusão lógica (desativação) ✓
 - Filmes
     - Cadastro (somente um usuário administrador poderá realizar esse cadastro)
     - Voto (a contagem de votos será feita por usuário de 0-4 que indica quanto o usuário gostou do filme)
