@@ -1,9 +1,0 @@
-D:\repos\imdbDotNetWebApi\Imdb\ImbdDomain\bin\Debug\netstandard2.0\ImbdDomain.deps.json
-D:\repos\imdbDotNetWebApi\Imdb\ImbdDomain\bin\Debug\netstandard2.0\ImbdDomain.dll
-D:\repos\imdbDotNetWebApi\Imdb\ImbdDomain\bin\Debug\netstandard2.0\ImbdDomain.pdb
-D:\repos\imdbDotNetWebApi\Imdb\ImbdDomain\obj\Debug\netstandard2.0\ImbdDomain.csprojAssemblyReference.cache
-D:\repos\imdbDotNetWebApi\Imdb\ImbdDomain\obj\Debug\netstandard2.0\ImbdDomain.AssemblyInfoInputs.cache
-D:\repos\imdbDotNetWebApi\Imdb\ImbdDomain\obj\Debug\netstandard2.0\ImbdDomain.AssemblyInfo.cs
-D:\repos\imdbDotNetWebApi\Imdb\ImbdDomain\obj\Debug\netstandard2.0\ImbdDomain.csproj.CoreCompileInputs.cache
-D:\repos\imdbDotNetWebApi\Imdb\ImbdDomain\obj\Debug\netstandard2.0\ImbdDomain.dll
-D:\repos\imdbDotNetWebApi\Imdb\ImbdDomain\obj\Debug\netstandard2.0\ImbdDomain.pdb

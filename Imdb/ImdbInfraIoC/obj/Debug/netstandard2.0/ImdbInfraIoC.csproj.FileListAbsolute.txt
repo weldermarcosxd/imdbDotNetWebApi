@@ -1,9 +1,0 @@
-D:\repos\imdbDotNetWebApi\Imdb\ImdbInfraIoC\bin\Debug\netstandard2.0\ImdbInfraIoC.deps.json
-D:\repos\imdbDotNetWebApi\Imdb\ImdbInfraIoC\bin\Debug\netstandard2.0\ImdbInfraIoC.dll
-D:\repos\imdbDotNetWebApi\Imdb\ImdbInfraIoC\bin\Debug\netstandard2.0\ImdbInfraIoC.pdb
-D:\repos\imdbDotNetWebApi\Imdb\ImdbInfraIoC\obj\Debug\netstandard2.0\ImdbInfraIoC.csprojAssemblyReference.cache
-D:\repos\imdbDotNetWebApi\Imdb\ImdbInfraIoC\obj\Debug\netstandard2.0\ImdbInfraIoC.AssemblyInfoInputs.cache
-D:\repos\imdbDotNetWebApi\Imdb\ImdbInfraIoC\obj\Debug\netstandard2.0\ImdbInfraIoC.AssemblyInfo.cs
-D:\repos\imdbDotNetWebApi\Imdb\ImdbInfraIoC\obj\Debug\netstandard2.0\ImdbInfraIoC.csproj.CoreCompileInputs.cache
-D:\repos\imdbDotNetWebApi\Imdb\ImdbInfraIoC\obj\Debug\netstandard2.0\ImdbInfraIoC.dll
-D:\repos\imdbDotNetWebApi\Imdb\ImdbInfraIoC\obj\Debug\netstandard2.0\ImdbInfraIoC.pdb
