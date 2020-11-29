@@ -71,6 +71,8 @@ namespace ImdbAPI
 
             services.AddScoped(typeof(IUserService), typeof(UserService));
 
+            services.AddScoped(typeof(IMovieService), typeof(MovieService));
+
             services.AddDbContext<ImdbContext>(options =>
                     options.UseNpgsql(Configuration.GetConnectionString("ImdbContext")));
 

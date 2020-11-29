@@ -46,5 +46,13 @@ namespace ImdbInfraData.Context
         }
 
         public DbSet<User> User { get; set; }
+
+        public DbSet<Movie> Movie { get; set; }
+
+        public DbSet<Actor> Actor { get; set; }
+
+        public DbSet<Vote> Vote { get; set; }
+
+        public DbSet<Director> Director { get; set; }
     }
 }
