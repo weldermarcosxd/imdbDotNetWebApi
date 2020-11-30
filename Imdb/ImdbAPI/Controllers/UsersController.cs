@@ -68,7 +68,7 @@ namespace ImdbAPI.Controllers
 
             await _userService.UpdateAsync(usuario);
 
-            return Created($"{HttpContext.Request.Scheme}://{HttpContext.Request.Host}{HttpContext.Request.Path}?id{ user.Id}", user);
+            return Created($"{HttpContext.Request.Scheme}://{HttpContext.Request.Host}{HttpContext.Request.Path}?id={ user.Id}", user);
         }
 
         [HttpDelete("{id}")]

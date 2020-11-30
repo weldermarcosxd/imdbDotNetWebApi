@@ -4,6 +4,7 @@ using ImdbInfraData.Interfaces;
 using ImdbServices.Dtos;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.Linq;
 
 namespace ImdbServices.Services
 {
@@ -23,7 +24,7 @@ namespace ImdbServices.Services
             var detalhes = _repository.GetAll()
                 .Include(x => x.Votes)
                 .Include(x => x.Staff)
-                .FirstOrDefaultAsync(x => x.Id == id);
+                .FirstOrDefault(x => x.Id == id);
 
             MovieDetailsDto detail = _mapper.Map<MovieDetailsDto>(detalhes);
 

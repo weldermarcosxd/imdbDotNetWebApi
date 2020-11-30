@@ -9,7 +9,7 @@ namespace ImbdDomain.Models
 
         public Director Director { get; set; }
 
-        public GeneroFilmeEnum GeneroFilme { get; set; }
+        public MovieGenderEnum MovieGender { get; set; }
 
         public List<Actor> Staff { get; set; }
 

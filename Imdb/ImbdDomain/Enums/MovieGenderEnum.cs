@@ -2,18 +2,18 @@
 
 namespace ImbdDomain.Enums
 {
-    public enum GeneroFilmeEnum
+    public enum MovieGenderEnum
     {
         [Description("Comédia")]
         Comedia,
 
         [Description("Ação")]
-        Acao,
+        Action,
 
         Drama,
 
-        Aventura,
+        Adventure,
 
-        Terror
+        Horror
     }
 }
